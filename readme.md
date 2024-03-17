@@ -32,24 +32,6 @@ To use the Crypto Alert Bot, follow these steps:
 
 1. **Clone the Repository**: Clone this GitHub repository to your local machine.
 
-# Crypto Alert Bot
-
-Welcome to Crypto Alert Bot! This repository contains code for a Telegram bot designed to alert users when a cryptocurrency experiences a significant increase in price. This README provides an overview of the bot's functionality, how to set it up, and future plans for development.
-
-## Functionality
-
-The Crypto Alert Bot monitors the price of cryptocurrencies at regular intervals and sends alerts to a designated Telegram group when the price of a selected cryptocurrency rises sharply.
-
-Currently, the bot is configured to detect a price increase of 5% within the last hour. It checks for price changes every 10 minutes and sends a notification to the Telegram group if the criteria are met.
-
-You can set your own parameters for the bot at `config.py`
-
-## How to Use
-
-To use the Crypto Alert Bot, follow these steps:
-
-1. **Clone the Repository**: Clone this GitHub repository to your local machine.
-
    ```
    git clone https://github.com/your-username/crypto-alert-bot.git
    ```
