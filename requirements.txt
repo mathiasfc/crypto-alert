@@ -1,0 +1,5 @@
+# python > 3.8
+python-telegram-bot
+asyncio
+python-dotenv
+requests
