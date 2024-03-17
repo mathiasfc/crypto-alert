@@ -76,7 +76,7 @@ async def check_prev_and_curr_price_change(endpoint):
             # Calculate the difference between the current and previous values
             difference = abs(current_price_change_1h - previous_price_change_1h)
 
-            log_message = f"{first_gainer['name']} ({first_gainer['symbol']})\n- Prev: {prev_value:.2f}%\n- Curr: {curr_value:.2f}%\n- Diff: {difference}"
+            log_message = f"{first_gainer['name']} ({first_gainer['symbol']})\n- Prev: {prev_value:.2f}%\n- Curr: {curr_value:.2f}%\n- Diff: {difference:.2f}%\n\n"
             print(log_message)
 
             # Check if the difference between the previous and the current value, to send the telegram message
@@ -86,7 +86,7 @@ async def check_prev_and_curr_price_change(endpoint):
             ):
                 # Only send the message if the difference is positive
                 if current_price_change_1h > previous_price_change_1h:
-                    html_log_message = f"🟢 {first_gainer['name']} (<b>{first_gainer['symbol']}</b>)\n\n - <b>Previous</b>: {prev_value:.2f}%\n - <b>Current</b>: {curr_value:.2f}% \n\n Difference: + {difference}\n\n Credits: CoinMarketCap - Top Crypto Gainers"
+                    html_log_message = f"🟢 {first_gainer['name']} (<b>{first_gainer['symbol']}</b>)\n\n - <b>Previous</b>: {prev_value:.2f}%\n - <b>Current</b>: {curr_value:.2f}% \n\n Difference: + {difference:.2f}%\n\n <a href='https://coinmarketcap.com/gainers-losers/' target='_blank'>View on coinmarketcap</a>"
                     await send_message(html_log_message)
 
         # Store the current value
