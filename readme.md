@@ -32,10 +32,10 @@ You can set your own parameters for the bot at `config.py`
 
 To use the Crypto Alert Bot, follow these steps:
 
-1. **Clone the Repository**: Clone this GitHub repository to your local machine.
+1. **Clone the Repository**
 
    ```
-   git clone https://github.com/your-username/crypto-alert-bot.git
+   git clone https://github.com/mathiasfc/crypto-alert.git
    ```
 
 2. **Set Up Telegram Bot**:
@@ -51,7 +51,6 @@ To use the Crypto Alert Bot, follow these steps:
 3. **Configure Settings**:
 
    - Open the `config.py` file located in the project directory.
-   - Below is an explanation of each configurable parameter:
 
      - `interval`: This parameter determines the interval in seconds at which the bot checks for price changes. By default, it is set to 600 seconds (10 minutes). You can modify this value to adjust how frequently the bot checks for price updates.
 
@@ -65,7 +64,7 @@ To use the Crypto Alert Bot, follow these steps:
 
    ⚠️ _python 3.8 or higher is required_
 
-5. **Run the Bot**: Execute the main Python script to start the bot.
+5. **Run the Bot (local)**: Execute the main Python script to start the bot.
 
    ```
    python main.py
