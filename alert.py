@@ -92,7 +92,7 @@ async def check_prev_and_curr_price_change(endpoint):
                 # Calculate the difference between the current and previous values
                 difference = abs(current_price_change_1h - previous_price_change_1h)
 
-                log_message = f"{first_gainer['name']} ({first_gainer['symbol']})\n- Prev: {prev_value:.2f}%\n- Curr: {curr_value:.2f}%\n- Diff: {difference:.2f}%\n\n"
+                log_message = f"{first_gainer['name']} ({first_gainer['symbol']})\n- Prev: {prev_value:.2f}% ({previous_crypto_slug})\n- Curr: {curr_value:.2f}% ({current_crypto_slug})\n- Diff: {difference:.2f}%\n\n"
                 print(log_message)
 
                 # Check if the difference between the previous and the current value, to send the telegram message
