@@ -74,13 +74,13 @@ To use the Crypto Alert Bot, follow these steps:
 
 You have the option to run the Crypto Alert Bot either locally or on a hosting service that supports Python, such as [PythonAnywhere](https://www.pythonanywhere.com/).
 
-## Live Example
+<!-- ## Live Example
 
 To see the Crypto Alert Bot in action, you can join the Telegram group where the bot is actively running and sending alerts:
 
 [Join Telegram Group](https://t.me/+i_Kpt2lTGmQ3MTRh)
 
-In this group, you'll receive real-time notifications whenever the bot detects a significant price increase in a cryptocurrency. It's a great way to experience firsthand how the bot operates and the type of alerts it provides.
+In this group, you'll receive real-time notifications whenever the bot detects a significant price increase in a cryptocurrency. It's a great way to experience firsthand how the bot operates and the type of alerts it provides. -->
 
 ## Future Development
 
